@@ -9,7 +9,10 @@ type Application struct {
 	name    string
 	version string
 	logger  *zap.Logger
+<<<<<<< HEAD
 	// httpServer *http.Server
+=======
+>>>>>>> 3a2cd47 (feat(init): Init)
 }
 
 func New() (*Application, error) {
